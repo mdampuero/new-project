@@ -1,0 +1,2 @@
+api_demos:
+    resource: "@AppBackEndBundle/Resources/config/routing_demos.yml"

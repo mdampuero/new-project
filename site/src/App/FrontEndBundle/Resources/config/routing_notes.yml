@@ -1,0 +1,24 @@
+fe_notes:
+  path:     /notes
+  defaults: { _controller: AppFrontEndBundle:Notes:index }
+  methods: [GET]
+
+fe_notes_add:
+  path:     /notes/add
+  defaults: { _controller: AppFrontEndBundle:Notes:add }
+  methods: [GET]
+
+fe_notes_edit:
+  path:     /notes/edit/{id}
+  defaults: { _controller: AppFrontEndBundle:Notes:edit }
+  methods: [GET]
+
+fe_notes_landing:
+  path: /notes/{id}
+  defaults: { _controller: AppFrontEndBundle:Notes:landing }
+  methods: [ GET ]
+
+fe_notes_landing_slug:
+  path: /note/{slug}
+  defaults: { _controller: AppFrontEndBundle:Notes:landingBySlug }
+  methods: [ GET ]

@@ -1,0 +1,10 @@
+avature_api:
+    resource: "@AppBackEndBundle/Resources/config/routing.yml"
+    prefix:   /api
+    defaults:
+        _format: json
+avature_fe:
+    resource: "@AppFrontEndBundle/Resources/config/routing.yml"
+    prefix:   /
+    defaults:
+        _format: html

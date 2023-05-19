@@ -1,0 +1,24 @@
+version: "3.5"
+services:
+    app:
+        build: ./php/.
+        container_name: app-php
+        working_dir: /var/www/site
+        volumes:
+            - ../site:/var/www/site
+        networks:
+            - brigde
+    nginx:
+        image: nginx:alpine
+        container_name: app-nginx
+        working_dir: /var/www/site
+        ports:
+            - 8088:80
+        volumes:
+            - ../site:/var/www/site
+            - ./nginx/conf.d/:/etc/nginx/conf.d/
+        networks:
+            - brigde
+networks:
+    brigde:
+        driver: bridge

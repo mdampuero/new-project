@@ -1,0 +1,4 @@
+fe_dashboard:
+    path:     /
+    defaults: { _controller: AppFrontEndBundle:Index:index }
+    methods: [GET]

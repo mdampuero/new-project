@@ -1,0 +1,5 @@
+site/web/bundles/
+site/var/
+site/vendor/
+site/storage/
+.idea/

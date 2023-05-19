@@ -1,0 +1,8 @@
+# This file is auto-generated during the composer install
+parameters:
+    secret: 99b2af404f070f6d849dea5705fd9375b130a628
+    pathDownloadLogs: /home/Mauricio/Documents/Logs/
+    pathFacadeCamelProd: /home/Mauricio/Documents/Projects/FacadeCamelProd/
+    userIntegration: admin
+    passIntegration: BelGradO2ol7
+    username: mauricio.ampuero
