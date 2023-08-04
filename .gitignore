@@ -3,3 +3,4 @@ site/var/
 site/vendor/
 site/storage/
 .idea/
+.DS_Store
